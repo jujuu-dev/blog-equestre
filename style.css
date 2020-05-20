@@ -1,0 +1,59 @@
+
+body{
+	font-family: 'Oxygen', sans-serif;
+}
+
+h1{
+	font-size: 5em;
+}
+
+h3{
+	color:#ef7e56;
+}
+
+
+h4{
+	font-size:1.5em;
+}
+li a:hover{
+	border-top:1px solid;
+	border-bottom : 1px solid;
+}
+
+a:visited {
+	
+	color:#000000;
+}
+
+.float{
+	float:right;
+}
+
+
+#fondclair{
+	background: #f9f9f9; 
+}
+
+#fondbleu{
+	background: #305973;
+}
+
+#fondbeige{
+	background: #ded5c4;
+}
+
+#couleurorange{
+	color:#ef7e56
+}
+
+.article{
+	color:black;
+}
+
+#liens{
+	color:white;
+	text-decoration: underline;
+}
+
+
+

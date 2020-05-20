@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr" >
+	<head>
+		<meta charset="UTF-8">
+		<title> Blog équestre </title>
+		<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css'>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width" />
+
+	</head>
+	<body class="w-100">
+	
+	<!-- Image background header + section 1 -->
+		<section style="background-image:url(images/img_background.png); background-size:cover; background-repeat :no-repeat; background-attachment:fixed; background-position: center center; height:100%; width:100%;">
+
+			<!-- HEADER -->
+			<header>
+				<h4 class="text-center pt-4 font-weight-bold"> Blog équestre</h4></br>
+				<h5 class="text-center mt-1 font-weight-light font-italic p-2"> Pour s'émerveiller devant les chevaux et tenter de mieux les comprendre. </h5>
+			
+			<!-- Barre de navigation -->
+			<nav class="navbar navbar-expand-sm navbar-light justify-content-center mt-4">
+				<!-- Bouton responsive -->
+				<button class="navbar-toggler"data-toggle="collapse" data-target="#responsive">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<!-- Liens -->
+				<div class="collapse navbar-collapse justify-content-center" id="responsive">
+					<ul class="navbar-nav">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html"> Accueil </a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">  Qui suis-je ? </a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="a_propos.html"> A propos </a>
+								<a class="dropdown-item" href="kenzo.html"> Kenzo du Hautbois </a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> Articles </a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="la_confiance.html"> La confiance </a>
+								<a class="dropdown-item" href="des_potes_et_de_lherbe.html"> Des potes et de l'herbe </a>
+								<a class="dropdown-item" href="les_voyages.html"> Les voyages équestres </a>
+								
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> Photos et vidéos </a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="page_photos.html"> Photos </a>
+								<a class="dropdown-item" href="page_video.html"> Vidéos </a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="lectures.html"> Lectures </a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			</header>
+			
+			<!-- SECTION 1 -->
+				<div class="row">
+					<div class="col-sm-12 col-md-12 p-5 border-top border-light">
+						<h4 class="text-center p-3"> Bienvenue sur </h4>
+						<h1 class="text-uppercase text-center mb-3"> Calme, en avant, droit </h1>
+						<h4 class="text-center font-weight-light mb-4"> Les chevaux, une école de la vie </h4>
+						<div class="text-center">
+							<button class="btn btn-lg btn-outline-warning text-uppercase my-5">
+							<a href="#mes_intentions"> Mes intentions </a>
+							</button>
+						</div>
+				
+				<div class="text-center">
+					<p> <a class="chevron" href="#derniers_articles"> <img src="images/chevron-bottom-4x.png" alt="" title="Cliquez"/></a></p></div>
+				
+				</div>
+				</div>
+		</section>
+		
+	
+	<!-- SECTION 2 -->
+	<section class="p-3" id="fondclair">
+		<div class="container">
+			<h3 class="text-center my-5 font-weight-light" id="derniers_articles"> Derniers articles </h3>
+			<p class="text-center"> <img src="images/noun_line.png"></p>
+			<div class="card-deck p-4">
+				<!-- 1ère carte -->
+				<div class="card text-white" id="fondbleu">
+					<img src="images/kenzo-cru.jpg" alt="" class="card-img-top" style="max-height: 200px">
+					<div class="card-body">
+						<h5 class="card-title"> La confiance </h5>
+						<p class="card-text"> Confiance = sentiment de quelqu'un qui se fie entièrement à quelqu'un d'autre, à quelque chose. </p>
+						<div class="card-footer">
+							
+							<a href="la_confiance.html" > <button class="btn btn-outline-warning btn-block"><span class="article text-white">Lire l'article</span> </button></a>
+							
+						</div>
+					</div>
+				</div>
+				<!-- 2ème carte -->
+				<div class="card text-white" id="fondbleu">
+					<img src="images/kenzo_leader.jpeg" alt="#" class="card-img-top" style="max-height: 200px">
+					<div class="card-body">
+						<h5 class="card-title"> Des potes et de l'herbe </h5>
+						<p class="card-text"> Je préfère voir mon cheval heureux même loin de moi. J'ai fait ce choix pour Kenzo. </p>
+						<div class="card-footer">
+							
+							<a href="des_potes_et_de_lherbe.html"> <button class="btn btn-outline-warning btn-block"><span class="article text-white"> Lire l'article</span></button> </a>
+							
+						</div>
+					</div>
+				</div>
+				
+				<!-- 3ème carte -->
+				<div class="card text-white" id="fondbleu">
+					<img src="images/patagonie.jpg" alt="#" class="card-img-top" style="max-height: 200px">
+					<div class="card-body">
+						<h5 class="card-title"> Les voyages équestres </h5>
+						<p class="card-text"> J'ai déjà quelques randonnées équestres à mon actif. Plus que des simples vacances, il s'agit toujours de beaux voyages faits de rencontres humaines et équestres. </p>
+						<div class="card-footer">
+							
+							<a href="les_voyages.html"> <button class="btn btn-outline-warning btn-block"><span class="article text-white">Lire l'article</span></button></a>
+						
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			</section>
+			
+			
+			<!-- SECTION 3 -->
+			<section style="background-image: url(images/printemps1.jpg) ; background-size : cover; background-attachment: fixed ; background-position :center;">
+				<div class="containter">
+					<h3 id="mes_intentions" class="text-center p-5 font-weight-light"> Mes intentions </h3>
+					<p class="text-center"> <img src="images/noun_line.png"></p>
+					<div class="row">
+						<div class="col-sm-12 col-md-4 text-center mt-4">
+							<h4> Partager mes apprentissages </h4>
+							<p class="p-3 ml-2"> Partager avec vous ce que les chevaux m'ont appris. Sur leur comportement, sur leurs maladies, sur leurs peurs et sur leurs besoins. Ce que les chevaux m'ont appris sur nous les humains, sur la gestion des émotions et sur la remise en question. </p>
+						</div>
+						<div class="col-sm-12 col-md-4 text-center mt-4">
+							<h4> Partager des photos et des vidéos </h4>
+							<p class="p-3"> Partager avec vous des photos et vidéos de Kenzo mais aussi des autres chevaux que j'ai pu rencontrés lors de mes voyages, lors de mes randonnées, et lors de weekends. </p>
+						</div>
+						<div class="col-sm-12 col-md-4 text-center mt-4">
+							<h4> Partager la culture équestre </h4>
+							<p class="p-3"> Partager avec vous mes lectures sur le thème des chevaux, mais aussi les spectacles et pourquoi pas des films. </p>
+						</div>
+					</div>
+				</div>
+			</section>
+<!-- FOOTER -->
+<footer class="bg-dark text-light text-right text-muted p-3">
+	<p> 2020 © "Calme, en avant, droit" </p>
+</footer>
+
+
+<!-- JS -->
+<script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'></script>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+</body>
+</html>
